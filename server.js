@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 
 app.use('/api/products', productRoutes);
-app.use('/api/cart', cartRoutes);
+app.use('/api/carts', cartRoutes);
 app.use('/api/orders', orderRoutes);
 
 
